@@ -1,6 +1,6 @@
 {
   "name": "MNIST (on PyTorch)",
-  "sample": true,
+  "listed": true,
   "link": "https://github.com/ainblockchain/mnist-ain",
   "readme": "README.md",
   "branch": "master",
