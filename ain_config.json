@@ -1,0 +1,11 @@
+{
+  "name": "MNIST (on PyTorch)",
+  "sample": true,
+  "link": "https://github.com/ainblockchain/mnist-ain",
+  "readme": "README.md",
+  "branch": "master",
+  "entry": "mnist/main.py",
+  "docker": {
+    "name": "anibali/pytorch:no-cuda"
+  }
+}
