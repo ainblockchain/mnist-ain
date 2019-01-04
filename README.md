@@ -1,2 +1,2 @@
 # mnist-ain
-MNIST code repository for AI Network.
+MNIST code for AI Network demo.
