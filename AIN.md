@@ -21,4 +21,4 @@ The expected output is the test results:
 Test set: Average loss: 0.1019, Accuracy: 9660/10000 (97%)
 ```
 
-You can try to change the parameters and the logic to improve the precision.
+Try to change the parameters and the logic in the code to improve the precision.
