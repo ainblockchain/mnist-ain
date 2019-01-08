@@ -2,7 +2,7 @@
   "name": "MNIST (on PyTorch)",
   "listed": true,
   "link": "https://github.com/ainblockchain/mnist-ain",
-  "readme": "README.md",
+  "readme": "AIN.md",
   "branch": "master",
   "entry": "mnist/main.py",
   "docker": {
