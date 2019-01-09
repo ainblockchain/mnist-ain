@@ -5,7 +5,12 @@
   "readme": "AIN.md",
   "branch": "master",
   "entry": "mnist/main.py",
-  "docker": {
-    "name": "anibali/pytorch:no-cuda"
+  "executor": {
+    "type": "exec_server",
+    "exec_server_params": {
+      "docker": {
+        "image": "anibali/pytorch:no-cuda"
+      }
+    }
   }
 }
