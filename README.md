@@ -13,23 +13,23 @@ For the details about the arguments, see [`github.com/anibali/docker-pytorch`](h
 ### Run w/ pytorch docker image (on CPU machine): 
 
 ```bash
-docker run --rm -it \
-  -v=$PWD/mnist:/mnist/mnist \
-  -w /mnist/mnist \
+docker run --rm -t \
+  -v=$PWD/mnist:/mnist \
+  -w /mnist \
   anibali/pytorch:no-cuda \
-  python3 /mnist/mnist/main.py \
+  python3 /mnist/main.py \
   --epochs=1
 ```
 
 ### Run w/ pytorch docker image (on GPU machine): 
 
 ```bash
-docker run --rm -it \
-  -v=$PWD/mnist:/mnist/mnist \
-  -w /mnist/mnist \
+docker run --rm -t \
+  -v=$PWD/mnist:/mnist \
+  -w /mnist \
   --runtime=nvidia \
   -e NVIDIA_VISIBLE_DEVICES=0 \
   anibali/pytorch:cuda-9.0 \
-  python3 /mnist/mnist/main.py \
+  python3 /mnist/main.py \
   --epochs=1 
 ```
