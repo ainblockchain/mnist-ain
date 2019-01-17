@@ -9,9 +9,9 @@
     "type": "exec_server",
     "exec_server_params": {
       "docker": {
-        "image": "anibali/pytorch:no-cuda"
+        "image": "anibali/pytorch:no-cuda",
+        "work_dir": "/mnist"
       },
-      "work_dir": "/mnist",
       "exec_params": "--epochs=1"
     }
   }
