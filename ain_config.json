@@ -10,7 +10,9 @@
     "exec_server_params": {
       "docker": {
         "image": "anibali/pytorch:no-cuda"
-      }
+      },
+      "work_dir": "/mnist",
+      "exec_params": "--epochs=1"
     }
   }
 }
