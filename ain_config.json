@@ -7,12 +7,14 @@
   "entry": "mnist/main.py",
   "executor": {
     "type": "exec_server",
-    "exec_server_params": {
+    "execServerParams": {
       "docker": {
         "image": "anibali/pytorch:no-cuda",
-        "work_dir": "/mnist"
+        "workDir": "/mnist",
+        "pythonPath": "/bert",
+        "pythonVersion": "3.6"
       },
-      "exec_params": "--epochs=1"
+      "execParams": "--epochs=1"
     }
   }
 }
