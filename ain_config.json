@@ -9,9 +9,9 @@
     "type": "exec_server",
     "execServerParams": {
       "docker": {
-        "image": "anibali/pytorch:no-cuda",
+        "image": "comcomai/mnist-ain:1.0.0",
         "workDir": "/mnist",
-        "pythonPath": "/bert",
+        "pythonPath": "/mnist",
         "pythonVersion": "3.6"
       },
       "execParams": "--epochs=1"
