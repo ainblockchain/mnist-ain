@@ -9,7 +9,7 @@
     "type": "exec_server",
     "execServerParams": {
       "docker": {
-        "image": "comcomai/mnist-ain:1.0.0",
+        "image": "ainblockchain/mnist-ain:1.0.0",
         "workDir": "/mnist",
         "pythonPath": "/mnist",
         "pythonVersion": "3.6"
