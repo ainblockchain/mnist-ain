@@ -13,7 +13,7 @@ In summary, 1) sign up on [`cloud.ainetwork.ai/`](https://cloud.ainetwork.ai/) a
 ### mnist/main.py
 
 This code performs the training and the testing for the [`MNIST database`](https://en.wikipedia.org/wiki/MNIST_database).
-Try to run the code by pressing the "Run" button [`AIN Cloud beta`](https://cloud.ainetwork.ai/)
+Try to run the code by pressing the "Run" button on [`AIN Cloud beta`](https://cloud.ainetwork.ai/)
 and see if it gives correct answers.
 The expected output is the test results:
 
